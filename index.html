@@ -20,6 +20,10 @@
 
     <section class="card" id="screen-start">
       <div class="field">
+        <label for="school">학교명</label>
+        <input id="school" type="text" placeholder="학교명을 입력하세요" maxlength="18" />
+      </div>
+      <div class="field">
         <label for="nickname">닉네임</label>
         <input id="nickname" type="text" placeholder="닉네임을 입력하세요" maxlength="12" />
       </div>
@@ -79,10 +83,18 @@
           <strong id="accuracy">0%</strong>
         </div>
       </div>
+      <button class="primary" id="showLeaderboardBtn">랭킹 보기</button>
       <button class="ghost" id="restartBtn">다시 시작</button>
+    </section>
+
+    <section class="card hidden" id="screen-leaderboard">
+      <h2>이번 주 랭킹</h2>
+      <p class="subtitle">학교명 + 닉네임 기준으로 집계</p>
+      <ol class="leaderboard" id="leaderboardList"></ol>
+      <button class="ghost" id="backToStartBtn">처음으로</button>
     </section>
   </main>
 
-  <script src="app.js"></script>
+  <script type="module" src="app.js"></script>
 </body>
 </html>

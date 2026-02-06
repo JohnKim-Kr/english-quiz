@@ -1,16 +1,48 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-analytics.js";
+import {
+  getFirestore,
+  collection,
+  addDoc,
+  serverTimestamp,
+  query,
+  where,
+  orderBy,
+  limit,
+  getDocs,
+} from "https://www.gstatic.com/firebasejs/12.9.0/firebase-firestore.js";
+
 const TOTAL_TIME = 120;
 const API_ENDPOINT = "https://api.pexels.com/v1/search";
 const DEFAULT_API_KEY = "4ObLFYLfgCcxIiOHoMOtmeKHgl2qsWcIC7sez6OKSCLFGdfUkzPpoN2v";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCGgKRDn-ryf5fLuKNByHouX6HCcmYxhfY",
+  authDomain: "quiz-all-61de9.firebaseapp.com",
+  projectId: "quiz-all-61de9",
+  storageBucket: "quiz-all-61de9.firebasestorage.app",
+  messagingSenderId: "775851726844",
+  appId: "1:775851726844:web:6792fa0f18963d62fe8479",
+  measurementId: "G-XJ16WJTBWQ",
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const db = getFirestore(app);
+const leaderboardRef = collection(db, "leaderboard");
 
 const screens = {
   start: document.getElementById("screen-start"),
   quiz: document.getElementById("screen-quiz"),
   result: document.getElementById("screen-result"),
+  leaderboard: document.getElementById("screen-leaderboard"),
 };
 
+const schoolInput = document.getElementById("school");
 const nicknameInput = document.getElementById("nickname");
 const startBtn = document.getElementById("startBtn");
 const restartBtn = document.getElementById("restartBtn");
+const showLeaderboardBtn = document.getElementById("showLeaderboardBtn");
 const timeText = document.getElementById("timeText");
 const scoreText = document.getElementById("scoreText");
 const fuseEl = document.getElementById("fuse");
@@ -24,6 +56,8 @@ const correctCountEl = document.getElementById("correctCount");
 const wrongCountEl = document.getElementById("wrongCount");
 const accuracyEl = document.getElementById("accuracy");
 const resultTitle = document.getElementById("resultTitle");
+const leaderboardList = document.getElementById("leaderboardList");
+const backToStartBtn = document.getElementById("backToStartBtn");
 
 const difficultyButtons = Array.from(document.querySelectorAll(".seg-btn"));
 
@@ -37,6 +71,7 @@ let wrong = 0;
 let usedIndexes = [];
 let apiKey = DEFAULT_API_KEY;
 let wordsReady = false;
+let currentPlayer = { school: "", nickname: "" };
 
 function formatTime(sec) {
   const m = Math.floor(sec / 60);
@@ -95,9 +130,7 @@ function pickQuestion() {
   const pool = getPool();
   if (pool.length === 0) return null;
 
-  if (usedIndexes.length >= pool.length) {
-    usedIndexes = [];
-  }
+  if (usedIndexes.length >= pool.length) return null;
 
   let index;
   do {
@@ -195,7 +228,10 @@ async function fetchImage(query) {
 
 async function nextQuestion() {
   currentQuestion = pickQuestion();
-  if (!currentQuestion) return;
+  if (!currentQuestion) {
+    finishQuiz();
+    return;
+  }
 
   answerReveal.style.display = "none";
   const { url, credit } = await fetchImage(currentQuestion.imageQuery || currentQuestion.word);
@@ -226,7 +262,14 @@ function finishQuiz() {
   correctCountEl.textContent = correct;
   wrongCountEl.textContent = wrong;
   accuracyEl.textContent = `${accuracy}%`;
-  resultTitle.textContent = `${playerName.textContent}님의 결과`;
+  resultTitle.textContent = `${currentPlayer.school} ${currentPlayer.nickname}님의 결과`;
+  saveLeaderboardEntry({
+    school: currentPlayer.school,
+    nickname: currentPlayer.nickname,
+    correct,
+    accuracy,
+    weekKey: getWeekKey(),
+  });
   setScreen("result");
 }
 
@@ -235,8 +278,10 @@ function startQuiz() {
     alert("단어를 불러오지 못했어요. 로컬 서버로 열어주세요.");
     return;
   }
+  const school = schoolInput.value.trim() || "학교";
   const nickname = nicknameInput.value.trim() || "Player";
-  playerName.textContent = nickname;
+  currentPlayer = { school, nickname };
+  playerName.textContent = `${school} ${nickname}`;
 
   resetState();
   setScreen("quiz");
@@ -248,6 +293,11 @@ startBtn.addEventListener("click", startQuiz);
 restartBtn.addEventListener("click", () => {
   setScreen("start");
 });
+showLeaderboardBtn.addEventListener("click", () => {
+  renderLeaderboard();
+  setScreen("leaderboard");
+});
+backToStartBtn.addEventListener("click", () => setScreen("start"));
 
 async function loadWords() {
   try {
@@ -260,6 +310,64 @@ async function loadWords() {
 }
 
 window.addEventListener("resize", updateFuse);
+
+function getWeekKey(date = new Date()) {
+  const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+  const weekNo = Math.ceil(((d - yearStart) / 86400000 + 1) / 7);
+  return `${d.getUTCFullYear()}-W${String(weekNo).padStart(2, "0")}`;
+}
+
+async function saveLeaderboardEntry(entry) {
+  try {
+    await addDoc(leaderboardRef, {
+      ...entry,
+      createdAt: serverTimestamp(),
+    });
+  } catch (error) {
+    // fallback: ignore save errors to avoid blocking the quiz
+  }
+}
+
+async function renderLeaderboard() {
+  leaderboardList.innerHTML = "";
+  const loading = document.createElement("li");
+  loading.textContent = "랭킹을 불러오는 중...";
+  leaderboardList.appendChild(loading);
+
+  try {
+    const currentWeek = getWeekKey();
+    const q = query(
+      leaderboardRef,
+      where("weekKey", "==", currentWeek),
+      orderBy("correct", "desc"),
+      orderBy("accuracy", "desc"),
+      orderBy("createdAt", "asc"),
+      limit(10),
+    );
+    const snapshot = await getDocs(q);
+    leaderboardList.innerHTML = "";
+    if (snapshot.empty) {
+      const empty = document.createElement("li");
+      empty.textContent = "아직 랭킹 데이터가 없습니다.";
+      leaderboardList.appendChild(empty);
+      return;
+    }
+    snapshot.forEach((docSnap, index) => {
+      const item = docSnap.data();
+      const li = document.createElement("li");
+      li.innerHTML = `<span>${index + 1}. ${item.school} ${item.nickname}</span><strong>${item.correct}개</strong>`;
+      leaderboardList.appendChild(li);
+    });
+  } catch (error) {
+    leaderboardList.innerHTML = "";
+    const empty = document.createElement("li");
+    empty.textContent = "랭킹을 불러오지 못했습니다.";
+    leaderboardList.appendChild(empty);
+  }
+}
 
 loadWords();
 updateFuse();
