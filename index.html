@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>영단어 스피드 퀴즈</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-layer"></div>
+  <main class="app">
+    <header class="app-header">
+      <div class="brand">Speed Vocabulary</div>
+      <h1>영단어 스피드 퀴즈</h1>
+      <p class="subtitle">TOEIC 중심 단어로 2분 동안 몰입!</p>
+    </header>
+
+    <section class="card" id="screen-start">
+      <div class="field">
+        <label for="nickname">닉네임</label>
+        <input id="nickname" type="text" placeholder="닉네임을 입력하세요" maxlength="12" />
+      </div>
+
+      <div class="field">
+        <span class="label">난이도</span>
+        <div class="segmented" role="group" aria-label="난이도 선택">
+          <button class="seg-btn active" data-difficulty="easy">초</button>
+          <button class="seg-btn" data-difficulty="mid">중</button>
+          <button class="seg-btn" data-difficulty="hard">고</button>
+        </div>
+      </div>
+
+      <button class="primary" id="startBtn">시작하기</button>
+    </section>
+
+    <section class="card hidden" id="screen-quiz" aria-live="polite">
+      <div class="timer-wrap">
+        <div class="timer-header">
+          <span id="playerName">Player</span>
+          <span id="timeText">02:00</span>
+          <span class="score" id="scoreText">정답 0</span>
+        </div>
+        <div class="dynamite" aria-label="타이머">
+          <div class="fuse" id="fuse">
+            <div class="burn"></div>
+          </div>
+          <div class="stick"></div>
+        </div>
+      </div>
+
+      <div class="image-wrap">
+        <div class="image-frame">
+          <img id="quizImage" alt="퀴즈 이미지" />
+          <div class="judge-mark" id="judgeMark"></div>
+        </div>
+        <div class="answer-reveal" id="answerReveal"></div>
+        <div class="image-credit" id="imageCredit">Image credit</div>
+      </div>
+
+      <div class="options" id="options"></div>
+    </section>
+
+    <section class="card hidden" id="screen-result">
+      <h2 id="resultTitle">결과</h2>
+      <div class="result-grid">
+        <div>
+          <span class="result-label">정답</span>
+          <strong id="correctCount">0</strong>
+        </div>
+        <div>
+          <span class="result-label">오답</span>
+          <strong id="wrongCount">0</strong>
+        </div>
+        <div>
+          <span class="result-label">정확도</span>
+          <strong id="accuracy">0%</strong>
+        </div>
+      </div>
+      <button class="ghost" id="restartBtn">다시 시작</button>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

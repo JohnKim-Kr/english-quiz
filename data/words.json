@@ -1,0 +1,2252 @@
+[
+  {
+    "word": "airport",
+    "difficulty": "easy",
+    "imageQuery": "airport"
+  },
+  {
+    "word": "plane",
+    "difficulty": "easy",
+    "imageQuery": "plane"
+  },
+  {
+    "word": "ticket",
+    "difficulty": "easy",
+    "imageQuery": "ticket"
+  },
+  {
+    "word": "passport",
+    "difficulty": "easy",
+    "imageQuery": "passport"
+  },
+  {
+    "word": "hotel",
+    "difficulty": "easy",
+    "imageQuery": "hotel"
+  },
+  {
+    "word": "room",
+    "difficulty": "easy",
+    "imageQuery": "room"
+  },
+  {
+    "word": "key",
+    "difficulty": "easy",
+    "imageQuery": "key"
+  },
+  {
+    "word": "luggage",
+    "difficulty": "easy",
+    "imageQuery": "luggage"
+  },
+  {
+    "word": "map",
+    "difficulty": "easy",
+    "imageQuery": "map"
+  },
+  {
+    "word": "taxi",
+    "difficulty": "easy",
+    "imageQuery": "taxi"
+  },
+  {
+    "word": "bus",
+    "difficulty": "easy",
+    "imageQuery": "bus"
+  },
+  {
+    "word": "train",
+    "difficulty": "easy",
+    "imageQuery": "train"
+  },
+  {
+    "word": "station",
+    "difficulty": "easy",
+    "imageQuery": "station"
+  },
+  {
+    "word": "platform",
+    "difficulty": "easy",
+    "imageQuery": "platform"
+  },
+  {
+    "word": "schedule",
+    "difficulty": "easy",
+    "imageQuery": "schedule"
+  },
+  {
+    "word": "time",
+    "difficulty": "easy",
+    "imageQuery": "time"
+  },
+  {
+    "word": "clock",
+    "difficulty": "easy",
+    "imageQuery": "clock"
+  },
+  {
+    "word": "money",
+    "difficulty": "easy",
+    "imageQuery": "money"
+  },
+  {
+    "word": "cash",
+    "difficulty": "easy",
+    "imageQuery": "cash"
+  },
+  {
+    "word": "card",
+    "difficulty": "easy",
+    "imageQuery": "card"
+  },
+  {
+    "word": "receipt",
+    "difficulty": "easy",
+    "imageQuery": "receipt"
+  },
+  {
+    "word": "price",
+    "difficulty": "easy",
+    "imageQuery": "price"
+  },
+  {
+    "word": "store",
+    "difficulty": "easy",
+    "imageQuery": "store"
+  },
+  {
+    "word": "market",
+    "difficulty": "easy",
+    "imageQuery": "market"
+  },
+  {
+    "word": "mall",
+    "difficulty": "easy",
+    "imageQuery": "mall"
+  },
+  {
+    "word": "shop",
+    "difficulty": "easy",
+    "imageQuery": "shop"
+  },
+  {
+    "word": "customer",
+    "difficulty": "easy",
+    "imageQuery": "customer"
+  },
+  {
+    "word": "staff",
+    "difficulty": "easy",
+    "imageQuery": "staff"
+  },
+  {
+    "word": "manager",
+    "difficulty": "easy",
+    "imageQuery": "manager"
+  },
+  {
+    "word": "office",
+    "difficulty": "easy",
+    "imageQuery": "office"
+  },
+  {
+    "word": "meeting",
+    "difficulty": "easy",
+    "imageQuery": "meeting"
+  },
+  {
+    "word": "phone",
+    "difficulty": "easy",
+    "imageQuery": "phone"
+  },
+  {
+    "word": "email",
+    "difficulty": "easy",
+    "imageQuery": "email"
+  },
+  {
+    "word": "message",
+    "difficulty": "easy",
+    "imageQuery": "message"
+  },
+  {
+    "word": "computer",
+    "difficulty": "easy",
+    "imageQuery": "computer"
+  },
+  {
+    "word": "keyboard",
+    "difficulty": "easy",
+    "imageQuery": "keyboard"
+  },
+  {
+    "word": "screen",
+    "difficulty": "easy",
+    "imageQuery": "screen"
+  },
+  {
+    "word": "printer",
+    "difficulty": "easy",
+    "imageQuery": "printer"
+  },
+  {
+    "word": "file",
+    "difficulty": "easy",
+    "imageQuery": "file"
+  },
+  {
+    "word": "paper",
+    "difficulty": "easy",
+    "imageQuery": "paper"
+  },
+  {
+    "word": "pen",
+    "difficulty": "easy",
+    "imageQuery": "pen"
+  },
+  {
+    "word": "note",
+    "difficulty": "easy",
+    "imageQuery": "note"
+  },
+  {
+    "word": "bag",
+    "difficulty": "easy",
+    "imageQuery": "bag"
+  },
+  {
+    "word": "box",
+    "difficulty": "easy",
+    "imageQuery": "box"
+  },
+  {
+    "word": "package",
+    "difficulty": "easy",
+    "imageQuery": "package"
+  },
+  {
+    "word": "delivery",
+    "difficulty": "easy",
+    "imageQuery": "delivery"
+  },
+  {
+    "word": "address",
+    "difficulty": "easy",
+    "imageQuery": "address"
+  },
+  {
+    "word": "street",
+    "difficulty": "easy",
+    "imageQuery": "street"
+  },
+  {
+    "word": "city",
+    "difficulty": "easy",
+    "imageQuery": "city"
+  },
+  {
+    "word": "country",
+    "difficulty": "easy",
+    "imageQuery": "country"
+  },
+  {
+    "word": "company",
+    "difficulty": "easy",
+    "imageQuery": "company"
+  },
+  {
+    "word": "job",
+    "difficulty": "easy",
+    "imageQuery": "job"
+  },
+  {
+    "word": "worker",
+    "difficulty": "easy",
+    "imageQuery": "worker"
+  },
+  {
+    "word": "boss",
+    "difficulty": "easy",
+    "imageQuery": "boss"
+  },
+  {
+    "word": "team",
+    "difficulty": "easy",
+    "imageQuery": "team"
+  },
+  {
+    "word": "project",
+    "difficulty": "easy",
+    "imageQuery": "project"
+  },
+  {
+    "word": "plan",
+    "difficulty": "easy",
+    "imageQuery": "plan"
+  },
+  {
+    "word": "goal",
+    "difficulty": "easy",
+    "imageQuery": "goal"
+  },
+  {
+    "word": "report",
+    "difficulty": "easy",
+    "imageQuery": "report"
+  },
+  {
+    "word": "chart",
+    "difficulty": "easy",
+    "imageQuery": "chart"
+  },
+  {
+    "word": "graph",
+    "difficulty": "easy",
+    "imageQuery": "graph"
+  },
+  {
+    "word": "number",
+    "difficulty": "easy",
+    "imageQuery": "number"
+  },
+  {
+    "word": "list",
+    "difficulty": "easy",
+    "imageQuery": "list"
+  },
+  {
+    "word": "order",
+    "difficulty": "easy",
+    "imageQuery": "order"
+  },
+  {
+    "word": "payment",
+    "difficulty": "easy",
+    "imageQuery": "payment"
+  },
+  {
+    "word": "bank",
+    "difficulty": "easy",
+    "imageQuery": "bank"
+  },
+  {
+    "word": "account",
+    "difficulty": "easy",
+    "imageQuery": "account"
+  },
+  {
+    "word": "invoice",
+    "difficulty": "easy",
+    "imageQuery": "invoice"
+  },
+  {
+    "word": "contract",
+    "difficulty": "easy",
+    "imageQuery": "contract"
+  },
+  {
+    "word": "signature",
+    "difficulty": "easy",
+    "imageQuery": "signature"
+  },
+  {
+    "word": "calendar",
+    "difficulty": "easy",
+    "imageQuery": "calendar"
+  },
+  {
+    "word": "date",
+    "difficulty": "easy",
+    "imageQuery": "date"
+  },
+  {
+    "word": "holiday",
+    "difficulty": "easy",
+    "imageQuery": "holiday"
+  },
+  {
+    "word": "weekend",
+    "difficulty": "easy",
+    "imageQuery": "weekend"
+  },
+  {
+    "word": "travel",
+    "difficulty": "easy",
+    "imageQuery": "travel"
+  },
+  {
+    "word": "trip",
+    "difficulty": "easy",
+    "imageQuery": "trip"
+  },
+  {
+    "word": "flight",
+    "difficulty": "easy",
+    "imageQuery": "flight"
+  },
+  {
+    "word": "seat",
+    "difficulty": "easy",
+    "imageQuery": "seat"
+  },
+  {
+    "word": "gate",
+    "difficulty": "easy",
+    "imageQuery": "gate"
+  },
+  {
+    "word": "passport control",
+    "difficulty": "easy",
+    "imageQuery": "passport control"
+  },
+  {
+    "word": "breakfast",
+    "difficulty": "easy",
+    "imageQuery": "breakfast"
+  },
+  {
+    "word": "lunch",
+    "difficulty": "easy",
+    "imageQuery": "lunch"
+  },
+  {
+    "word": "dinner",
+    "difficulty": "easy",
+    "imageQuery": "dinner"
+  },
+  {
+    "word": "coffee",
+    "difficulty": "easy",
+    "imageQuery": "coffee"
+  },
+  {
+    "word": "water",
+    "difficulty": "easy",
+    "imageQuery": "water"
+  },
+  {
+    "word": "menu",
+    "difficulty": "easy",
+    "imageQuery": "menu"
+  },
+  {
+    "word": "restaurant",
+    "difficulty": "easy",
+    "imageQuery": "restaurant"
+  },
+  {
+    "word": "reservation",
+    "difficulty": "easy",
+    "imageQuery": "reservation"
+  },
+  {
+    "word": "table",
+    "difficulty": "easy",
+    "imageQuery": "table"
+  },
+  {
+    "word": "kitchen",
+    "difficulty": "easy",
+    "imageQuery": "kitchen"
+  },
+  {
+    "word": "clean",
+    "difficulty": "easy",
+    "imageQuery": "clean"
+  },
+  {
+    "word": "dirty",
+    "difficulty": "easy",
+    "imageQuery": "dirty"
+  },
+  {
+    "word": "safe",
+    "difficulty": "easy",
+    "imageQuery": "safe"
+  },
+  {
+    "word": "danger",
+    "difficulty": "easy",
+    "imageQuery": "danger"
+  },
+  {
+    "word": "help",
+    "difficulty": "easy",
+    "imageQuery": "help"
+  },
+  {
+    "word": "support",
+    "difficulty": "easy",
+    "imageQuery": "support"
+  },
+  {
+    "word": "question",
+    "difficulty": "easy",
+    "imageQuery": "question"
+  },
+  {
+    "word": "answer",
+    "difficulty": "easy",
+    "imageQuery": "answer"
+  },
+  {
+    "word": "problem",
+    "difficulty": "easy",
+    "imageQuery": "problem"
+  },
+  {
+    "word": "solution",
+    "difficulty": "easy",
+    "imageQuery": "solution"
+  },
+  {
+    "word": "start",
+    "difficulty": "easy",
+    "imageQuery": "start"
+  },
+  {
+    "word": "finish",
+    "difficulty": "easy",
+    "imageQuery": "finish"
+  },
+  {
+    "word": "open",
+    "difficulty": "easy",
+    "imageQuery": "open"
+  },
+  {
+    "word": "close",
+    "difficulty": "easy",
+    "imageQuery": "close"
+  },
+  {
+    "word": "send",
+    "difficulty": "easy",
+    "imageQuery": "send"
+  },
+  {
+    "word": "receive",
+    "difficulty": "easy",
+    "imageQuery": "receive"
+  },
+  {
+    "word": "buy",
+    "difficulty": "easy",
+    "imageQuery": "buy"
+  },
+  {
+    "word": "sell",
+    "difficulty": "easy",
+    "imageQuery": "sell"
+  },
+  {
+    "word": "work",
+    "difficulty": "easy",
+    "imageQuery": "work"
+  },
+  {
+    "word": "rest",
+    "difficulty": "easy",
+    "imageQuery": "rest"
+  },
+  {
+    "word": "early",
+    "difficulty": "easy",
+    "imageQuery": "early"
+  },
+  {
+    "word": "late",
+    "difficulty": "easy",
+    "imageQuery": "late"
+  },
+  {
+    "word": "fast",
+    "difficulty": "easy",
+    "imageQuery": "fast"
+  },
+  {
+    "word": "slow",
+    "difficulty": "easy",
+    "imageQuery": "slow"
+  },
+  {
+    "word": "high",
+    "difficulty": "easy",
+    "imageQuery": "high"
+  },
+  {
+    "word": "low",
+    "difficulty": "easy",
+    "imageQuery": "low"
+  },
+  {
+    "word": "big",
+    "difficulty": "easy",
+    "imageQuery": "big"
+  },
+  {
+    "word": "small",
+    "difficulty": "easy",
+    "imageQuery": "small"
+  },
+  {
+    "word": "new",
+    "difficulty": "easy",
+    "imageQuery": "new"
+  },
+  {
+    "word": "old",
+    "difficulty": "easy",
+    "imageQuery": "old"
+  },
+  {
+    "word": "happy",
+    "difficulty": "easy",
+    "imageQuery": "happy"
+  },
+  {
+    "word": "sad",
+    "difficulty": "easy",
+    "imageQuery": "sad"
+  },
+  {
+    "word": "busy",
+    "difficulty": "easy",
+    "imageQuery": "busy"
+  },
+  {
+    "word": "free",
+    "difficulty": "easy",
+    "imageQuery": "free"
+  },
+  {
+    "word": "ready",
+    "difficulty": "easy",
+    "imageQuery": "ready"
+  },
+  {
+    "word": "quiet",
+    "difficulty": "easy",
+    "imageQuery": "quiet"
+  },
+  {
+    "word": "loud",
+    "difficulty": "easy",
+    "imageQuery": "loud"
+  },
+  {
+    "word": "simple",
+    "difficulty": "easy",
+    "imageQuery": "simple"
+  },
+  {
+    "word": "clear",
+    "difficulty": "easy",
+    "imageQuery": "clear"
+  },
+  {
+    "word": "easy",
+    "difficulty": "easy",
+    "imageQuery": "easy"
+  },
+  {
+    "word": "hard",
+    "difficulty": "easy",
+    "imageQuery": "hard"
+  },
+  {
+    "word": "short",
+    "difficulty": "easy",
+    "imageQuery": "short"
+  },
+  {
+    "word": "long",
+    "difficulty": "easy",
+    "imageQuery": "long"
+  },
+  {
+    "word": "left",
+    "difficulty": "easy",
+    "imageQuery": "left"
+  },
+  {
+    "word": "right",
+    "difficulty": "easy",
+    "imageQuery": "right"
+  },
+  {
+    "word": "front",
+    "difficulty": "easy",
+    "imageQuery": "front"
+  },
+  {
+    "word": "back",
+    "difficulty": "easy",
+    "imageQuery": "back"
+  },
+  {
+    "word": "inside",
+    "difficulty": "easy",
+    "imageQuery": "inside"
+  },
+  {
+    "word": "outside",
+    "difficulty": "easy",
+    "imageQuery": "outside"
+  },
+  {
+    "word": "near",
+    "difficulty": "easy",
+    "imageQuery": "near"
+  },
+  {
+    "word": "far",
+    "difficulty": "easy",
+    "imageQuery": "far"
+  },
+  {
+    "word": "up",
+    "difficulty": "easy",
+    "imageQuery": "up"
+  },
+  {
+    "word": "down",
+    "difficulty": "easy",
+    "imageQuery": "down"
+  },
+  {
+    "word": "today",
+    "difficulty": "easy",
+    "imageQuery": "today"
+  },
+  {
+    "word": "tomorrow",
+    "difficulty": "easy",
+    "imageQuery": "tomorrow"
+  },
+  {
+    "word": "yesterday",
+    "difficulty": "easy",
+    "imageQuery": "yesterday"
+  },
+  {
+    "word": "morning",
+    "difficulty": "easy",
+    "imageQuery": "morning"
+  },
+  {
+    "word": "evening",
+    "difficulty": "easy",
+    "imageQuery": "evening"
+  },
+  {
+    "word": "night",
+    "difficulty": "easy",
+    "imageQuery": "night"
+  },
+  {
+    "word": "weather",
+    "difficulty": "easy",
+    "imageQuery": "weather"
+  },
+  {
+    "word": "agenda",
+    "difficulty": "mid",
+    "imageQuery": "agenda"
+  },
+  {
+    "word": "minutes",
+    "difficulty": "mid",
+    "imageQuery": "minutes"
+  },
+  {
+    "word": "presentation",
+    "difficulty": "mid",
+    "imageQuery": "presentation"
+  },
+  {
+    "word": "proposal",
+    "difficulty": "mid",
+    "imageQuery": "proposal"
+  },
+  {
+    "word": "approval",
+    "difficulty": "mid",
+    "imageQuery": "approval"
+  },
+  {
+    "word": "budget",
+    "difficulty": "mid",
+    "imageQuery": "budget"
+  },
+  {
+    "word": "expense",
+    "difficulty": "mid",
+    "imageQuery": "expense"
+  },
+  {
+    "word": "revenue",
+    "difficulty": "mid",
+    "imageQuery": "revenue"
+  },
+  {
+    "word": "profit",
+    "difficulty": "mid",
+    "imageQuery": "profit"
+  },
+  {
+    "word": "loss",
+    "difficulty": "mid",
+    "imageQuery": "loss"
+  },
+  {
+    "word": "forecast",
+    "difficulty": "mid",
+    "imageQuery": "forecast"
+  },
+  {
+    "word": "estimate",
+    "difficulty": "mid",
+    "imageQuery": "estimate"
+  },
+  {
+    "word": "inventory",
+    "difficulty": "mid",
+    "imageQuery": "inventory"
+  },
+  {
+    "word": "shipment",
+    "difficulty": "mid",
+    "imageQuery": "shipment"
+  },
+  {
+    "word": "logistics",
+    "difficulty": "mid",
+    "imageQuery": "logistics"
+  },
+  {
+    "word": "supplier",
+    "difficulty": "mid",
+    "imageQuery": "supplier"
+  },
+  {
+    "word": "vendor",
+    "difficulty": "mid",
+    "imageQuery": "vendor"
+  },
+  {
+    "word": "client",
+    "difficulty": "mid",
+    "imageQuery": "client"
+  },
+  {
+    "word": "partner",
+    "difficulty": "mid",
+    "imageQuery": "partner"
+  },
+  {
+    "word": "contractor",
+    "difficulty": "mid",
+    "imageQuery": "contractor"
+  },
+  {
+    "word": "quotation",
+    "difficulty": "mid",
+    "imageQuery": "quotation"
+  },
+  {
+    "word": "promotion",
+    "difficulty": "mid",
+    "imageQuery": "promotion"
+  },
+  {
+    "word": "advertising",
+    "difficulty": "mid",
+    "imageQuery": "advertising"
+  },
+  {
+    "word": "campaign",
+    "difficulty": "mid",
+    "imageQuery": "campaign"
+  },
+  {
+    "word": "brand",
+    "difficulty": "mid",
+    "imageQuery": "brand"
+  },
+  {
+    "word": "survey",
+    "difficulty": "mid",
+    "imageQuery": "survey"
+  },
+  {
+    "word": "feedback",
+    "difficulty": "mid",
+    "imageQuery": "feedback"
+  },
+  {
+    "word": "policy",
+    "difficulty": "mid",
+    "imageQuery": "policy"
+  },
+  {
+    "word": "procedure",
+    "difficulty": "mid",
+    "imageQuery": "procedure"
+  },
+  {
+    "word": "regulation",
+    "difficulty": "mid",
+    "imageQuery": "regulation"
+  },
+  {
+    "word": "deadline",
+    "difficulty": "mid",
+    "imageQuery": "deadline"
+  },
+  {
+    "word": "extension",
+    "difficulty": "mid",
+    "imageQuery": "extension"
+  },
+  {
+    "word": "maintenance",
+    "difficulty": "mid",
+    "imageQuery": "maintenance"
+  },
+  {
+    "word": "installation",
+    "difficulty": "mid",
+    "imageQuery": "installation"
+  },
+  {
+    "word": "upgrade",
+    "difficulty": "mid",
+    "imageQuery": "upgrade"
+  },
+  {
+    "word": "outage",
+    "difficulty": "mid",
+    "imageQuery": "outage"
+  },
+  {
+    "word": "backup",
+    "difficulty": "mid",
+    "imageQuery": "backup"
+  },
+  {
+    "word": "database",
+    "difficulty": "mid",
+    "imageQuery": "database"
+  },
+  {
+    "word": "network",
+    "difficulty": "mid",
+    "imageQuery": "network"
+  },
+  {
+    "word": "software",
+    "difficulty": "mid",
+    "imageQuery": "software"
+  },
+  {
+    "word": "hardware",
+    "difficulty": "mid",
+    "imageQuery": "hardware"
+  },
+  {
+    "word": "license",
+    "difficulty": "mid",
+    "imageQuery": "license"
+  },
+  {
+    "word": "subscription",
+    "difficulty": "mid",
+    "imageQuery": "subscription"
+  },
+  {
+    "word": "renewal",
+    "difficulty": "mid",
+    "imageQuery": "renewal"
+  },
+  {
+    "word": "warranty",
+    "difficulty": "mid",
+    "imageQuery": "warranty"
+  },
+  {
+    "word": "guarantee",
+    "difficulty": "mid",
+    "imageQuery": "guarantee"
+  },
+  {
+    "word": "complaint",
+    "difficulty": "mid",
+    "imageQuery": "complaint"
+  },
+  {
+    "word": "refund",
+    "difficulty": "mid",
+    "imageQuery": "refund"
+  },
+  {
+    "word": "exchange",
+    "difficulty": "mid",
+    "imageQuery": "exchange"
+  },
+  {
+    "word": "discount",
+    "difficulty": "mid",
+    "imageQuery": "discount"
+  },
+  {
+    "word": "coupon",
+    "difficulty": "mid",
+    "imageQuery": "coupon"
+  },
+  {
+    "word": "membership",
+    "difficulty": "mid",
+    "imageQuery": "membership"
+  },
+  {
+    "word": "loyalty",
+    "difficulty": "mid",
+    "imageQuery": "loyalty"
+  },
+  {
+    "word": "priority",
+    "difficulty": "mid",
+    "imageQuery": "priority"
+  },
+  {
+    "word": "allocation",
+    "difficulty": "mid",
+    "imageQuery": "allocation"
+  },
+  {
+    "word": "capacity",
+    "difficulty": "mid",
+    "imageQuery": "capacity"
+  },
+  {
+    "word": "workload",
+    "difficulty": "mid",
+    "imageQuery": "workload"
+  },
+  {
+    "word": "schedule",
+    "difficulty": "mid",
+    "imageQuery": "schedule"
+  },
+  {
+    "word": "shift",
+    "difficulty": "mid",
+    "imageQuery": "shift"
+  },
+  {
+    "word": "overtime",
+    "difficulty": "mid",
+    "imageQuery": "overtime"
+  },
+  {
+    "word": "benefit",
+    "difficulty": "mid",
+    "imageQuery": "benefit"
+  },
+  {
+    "word": "salary",
+    "difficulty": "mid",
+    "imageQuery": "salary"
+  },
+  {
+    "word": "payroll",
+    "difficulty": "mid",
+    "imageQuery": "payroll"
+  },
+  {
+    "word": "recruitment",
+    "difficulty": "mid",
+    "imageQuery": "recruitment"
+  },
+  {
+    "word": "interview",
+    "difficulty": "mid",
+    "imageQuery": "interview"
+  },
+  {
+    "word": "training",
+    "difficulty": "mid",
+    "imageQuery": "training"
+  },
+  {
+    "word": "orientation",
+    "difficulty": "mid",
+    "imageQuery": "orientation"
+  },
+  {
+    "word": "evaluation",
+    "difficulty": "mid",
+    "imageQuery": "evaluation"
+  },
+  {
+    "word": "performance",
+    "difficulty": "mid",
+    "imageQuery": "performance"
+  },
+  {
+    "word": "target",
+    "difficulty": "mid",
+    "imageQuery": "target"
+  },
+  {
+    "word": "benchmark",
+    "difficulty": "mid",
+    "imageQuery": "benchmark"
+  },
+  {
+    "word": "quality",
+    "difficulty": "mid",
+    "imageQuery": "quality"
+  },
+  {
+    "word": "standard",
+    "difficulty": "mid",
+    "imageQuery": "standard"
+  },
+  {
+    "word": "inspection",
+    "difficulty": "mid",
+    "imageQuery": "inspection"
+  },
+  {
+    "word": "audit",
+    "difficulty": "mid",
+    "imageQuery": "audit"
+  },
+  {
+    "word": "compliance",
+    "difficulty": "mid",
+    "imageQuery": "compliance"
+  },
+  {
+    "word": "documentation",
+    "difficulty": "mid",
+    "imageQuery": "documentation"
+  },
+  {
+    "word": "manual",
+    "difficulty": "mid",
+    "imageQuery": "manual"
+  },
+  {
+    "word": "guideline",
+    "difficulty": "mid",
+    "imageQuery": "guideline"
+  },
+  {
+    "word": "consent",
+    "difficulty": "mid",
+    "imageQuery": "consent"
+  },
+  {
+    "word": "signature",
+    "difficulty": "mid",
+    "imageQuery": "signature"
+  },
+  {
+    "word": "authorization",
+    "difficulty": "mid",
+    "imageQuery": "authorization"
+  },
+  {
+    "word": "submission",
+    "difficulty": "mid",
+    "imageQuery": "submission"
+  },
+  {
+    "word": "enrollment",
+    "difficulty": "mid",
+    "imageQuery": "enrollment"
+  },
+  {
+    "word": "reservation",
+    "difficulty": "mid",
+    "imageQuery": "reservation"
+  },
+  {
+    "word": "confirmation",
+    "difficulty": "mid",
+    "imageQuery": "confirmation"
+  },
+  {
+    "word": "cancellation",
+    "difficulty": "mid",
+    "imageQuery": "cancellation"
+  },
+  {
+    "word": "delay",
+    "difficulty": "mid",
+    "imageQuery": "delay"
+  },
+  {
+    "word": "postpone",
+    "difficulty": "mid",
+    "imageQuery": "postpone"
+  },
+  {
+    "word": "shipment tracking",
+    "difficulty": "mid",
+    "imageQuery": "shipment tracking"
+  },
+  {
+    "word": "customs",
+    "difficulty": "mid",
+    "imageQuery": "customs"
+  },
+  {
+    "word": "invoice number",
+    "difficulty": "mid",
+    "imageQuery": "invoice number"
+  },
+  {
+    "word": "purchase order",
+    "difficulty": "mid",
+    "imageQuery": "purchase order"
+  },
+  {
+    "word": "sales report",
+    "difficulty": "mid",
+    "imageQuery": "sales report"
+  },
+  {
+    "word": "market share",
+    "difficulty": "mid",
+    "imageQuery": "market share"
+  },
+  {
+    "word": "cash flow",
+    "difficulty": "mid",
+    "imageQuery": "cash flow"
+  },
+  {
+    "word": "balance sheet",
+    "difficulty": "mid",
+    "imageQuery": "balance sheet"
+  },
+  {
+    "word": "annual report",
+    "difficulty": "mid",
+    "imageQuery": "annual report"
+  },
+  {
+    "word": "quarterly",
+    "difficulty": "mid",
+    "imageQuery": "quarterly"
+  },
+  {
+    "word": "headquarters",
+    "difficulty": "mid",
+    "imageQuery": "headquarters"
+  },
+  {
+    "word": "branch",
+    "difficulty": "mid",
+    "imageQuery": "branch"
+  },
+  {
+    "word": "department",
+    "difficulty": "mid",
+    "imageQuery": "department"
+  },
+  {
+    "word": "division",
+    "difficulty": "mid",
+    "imageQuery": "division"
+  },
+  {
+    "word": "committee",
+    "difficulty": "mid",
+    "imageQuery": "committee"
+  },
+  {
+    "word": "chairperson",
+    "difficulty": "mid",
+    "imageQuery": "chairperson"
+  },
+  {
+    "word": "assistant",
+    "difficulty": "mid",
+    "imageQuery": "assistant"
+  },
+  {
+    "word": "colleague",
+    "difficulty": "mid",
+    "imageQuery": "colleague"
+  },
+  {
+    "word": "conference call",
+    "difficulty": "mid",
+    "imageQuery": "conference call"
+  },
+  {
+    "word": "video meeting",
+    "difficulty": "mid",
+    "imageQuery": "video meeting"
+  },
+  {
+    "word": "teleconference",
+    "difficulty": "mid",
+    "imageQuery": "teleconference"
+  },
+  {
+    "word": "agenda item",
+    "difficulty": "mid",
+    "imageQuery": "agenda item"
+  },
+  {
+    "word": "action item",
+    "difficulty": "mid",
+    "imageQuery": "action item"
+  },
+  {
+    "word": "follow-up",
+    "difficulty": "mid",
+    "imageQuery": "follow-up"
+  },
+  {
+    "word": "memo",
+    "difficulty": "mid",
+    "imageQuery": "memo"
+  },
+  {
+    "word": "announcement",
+    "difficulty": "mid",
+    "imageQuery": "announcement"
+  },
+  {
+    "word": "bulletin",
+    "difficulty": "mid",
+    "imageQuery": "bulletin"
+  },
+  {
+    "word": "notice",
+    "difficulty": "mid",
+    "imageQuery": "notice"
+  },
+  {
+    "word": "facility",
+    "difficulty": "mid",
+    "imageQuery": "facility"
+  },
+  {
+    "word": "equipment",
+    "difficulty": "mid",
+    "imageQuery": "equipment"
+  },
+  {
+    "word": "supplies",
+    "difficulty": "mid",
+    "imageQuery": "supplies"
+  },
+  {
+    "word": "stationery",
+    "difficulty": "mid",
+    "imageQuery": "stationery"
+  },
+  {
+    "word": "procurement",
+    "difficulty": "mid",
+    "imageQuery": "procurement"
+  },
+  {
+    "word": "tender",
+    "difficulty": "mid",
+    "imageQuery": "tender"
+  },
+  {
+    "word": "bid",
+    "difficulty": "mid",
+    "imageQuery": "bid"
+  },
+  {
+    "word": "negotiation",
+    "difficulty": "mid",
+    "imageQuery": "negotiation"
+  },
+  {
+    "word": "agreement",
+    "difficulty": "mid",
+    "imageQuery": "agreement"
+  },
+  {
+    "word": "settlement",
+    "difficulty": "mid",
+    "imageQuery": "settlement"
+  },
+  {
+    "word": "liability",
+    "difficulty": "mid",
+    "imageQuery": "liability"
+  },
+  {
+    "word": "coverage",
+    "difficulty": "mid",
+    "imageQuery": "coverage"
+  },
+  {
+    "word": "insurance",
+    "difficulty": "mid",
+    "imageQuery": "insurance"
+  },
+  {
+    "word": "claim",
+    "difficulty": "mid",
+    "imageQuery": "claim"
+  },
+  {
+    "word": "risk",
+    "difficulty": "mid",
+    "imageQuery": "risk"
+  },
+  {
+    "word": "safety",
+    "difficulty": "mid",
+    "imageQuery": "safety"
+  },
+  {
+    "word": "emergency",
+    "difficulty": "mid",
+    "imageQuery": "emergency"
+  },
+  {
+    "word": "evacuation",
+    "difficulty": "mid",
+    "imageQuery": "evacuation"
+  },
+  {
+    "word": "security check",
+    "difficulty": "mid",
+    "imageQuery": "security check"
+  },
+  {
+    "word": "access badge",
+    "difficulty": "mid",
+    "imageQuery": "access badge"
+  },
+  {
+    "word": "workshop",
+    "difficulty": "mid",
+    "imageQuery": "workshop"
+  },
+  {
+    "word": "seminar",
+    "difficulty": "mid",
+    "imageQuery": "seminar"
+  },
+  {
+    "word": "registration",
+    "difficulty": "mid",
+    "imageQuery": "registration"
+  },
+  {
+    "word": "certificate",
+    "difficulty": "mid",
+    "imageQuery": "certificate"
+  },
+  {
+    "word": "completion",
+    "difficulty": "mid",
+    "imageQuery": "completion"
+  },
+  {
+    "word": "client visit",
+    "difficulty": "mid",
+    "imageQuery": "client visit"
+  },
+  {
+    "word": "site visit",
+    "difficulty": "mid",
+    "imageQuery": "site visit"
+  },
+  {
+    "word": "feedback form",
+    "difficulty": "mid",
+    "imageQuery": "feedback form"
+  },
+  {
+    "word": "service desk",
+    "difficulty": "mid",
+    "imageQuery": "service desk"
+  },
+  {
+    "word": "helpdesk",
+    "difficulty": "mid",
+    "imageQuery": "helpdesk"
+  },
+  {
+    "word": "applicant",
+    "difficulty": "mid",
+    "imageQuery": "applicant"
+  },
+  {
+    "word": "candidate",
+    "difficulty": "mid",
+    "imageQuery": "candidate"
+  },
+  {
+    "word": "vacancy",
+    "difficulty": "mid",
+    "imageQuery": "vacancy"
+  },
+  {
+    "word": "acquisition",
+    "difficulty": "hard",
+    "imageQuery": "acquisition"
+  },
+  {
+    "word": "merger",
+    "difficulty": "hard",
+    "imageQuery": "merger"
+  },
+  {
+    "word": "divestment",
+    "difficulty": "hard",
+    "imageQuery": "divestment"
+  },
+  {
+    "word": "consolidation",
+    "difficulty": "hard",
+    "imageQuery": "consolidation"
+  },
+  {
+    "word": "restructuring",
+    "difficulty": "hard",
+    "imageQuery": "restructuring"
+  },
+  {
+    "word": "reorganization",
+    "difficulty": "hard",
+    "imageQuery": "reorganization"
+  },
+  {
+    "word": "implementation",
+    "difficulty": "hard",
+    "imageQuery": "implementation"
+  },
+  {
+    "word": "optimization",
+    "difficulty": "hard",
+    "imageQuery": "optimization"
+  },
+  {
+    "word": "streamline",
+    "difficulty": "hard",
+    "imageQuery": "streamline"
+  },
+  {
+    "word": "synergy",
+    "difficulty": "hard",
+    "imageQuery": "synergy"
+  },
+  {
+    "word": "stakeholder",
+    "difficulty": "hard",
+    "imageQuery": "stakeholder"
+  },
+  {
+    "word": "shareholder",
+    "difficulty": "hard",
+    "imageQuery": "shareholder"
+  },
+  {
+    "word": "subsidiary",
+    "difficulty": "hard",
+    "imageQuery": "subsidiary"
+  },
+  {
+    "word": "affiliation",
+    "difficulty": "hard",
+    "imageQuery": "affiliation"
+  },
+  {
+    "word": "conglomerate",
+    "difficulty": "hard",
+    "imageQuery": "conglomerate"
+  },
+  {
+    "word": "entrepreneurship",
+    "difficulty": "hard",
+    "imageQuery": "entrepreneurship"
+  },
+  {
+    "word": "innovation",
+    "difficulty": "hard",
+    "imageQuery": "innovation"
+  },
+  {
+    "word": "scalability",
+    "difficulty": "hard",
+    "imageQuery": "scalability"
+  },
+  {
+    "word": "sustainability",
+    "difficulty": "hard",
+    "imageQuery": "sustainability"
+  },
+  {
+    "word": "feasibility",
+    "difficulty": "hard",
+    "imageQuery": "feasibility"
+  },
+  {
+    "word": "liquidation",
+    "difficulty": "hard",
+    "imageQuery": "liquidation"
+  },
+  {
+    "word": "solvency",
+    "difficulty": "hard",
+    "imageQuery": "solvency"
+  },
+  {
+    "word": "liquidity",
+    "difficulty": "hard",
+    "imageQuery": "liquidity"
+  },
+  {
+    "word": "depreciation",
+    "difficulty": "hard",
+    "imageQuery": "depreciation"
+  },
+  {
+    "word": "amortization",
+    "difficulty": "hard",
+    "imageQuery": "amortization"
+  },
+  {
+    "word": "accrual",
+    "difficulty": "hard",
+    "imageQuery": "accrual"
+  },
+  {
+    "word": "liability",
+    "difficulty": "hard",
+    "imageQuery": "liability"
+  },
+  {
+    "word": "equity",
+    "difficulty": "hard",
+    "imageQuery": "equity"
+  },
+  {
+    "word": "dividend",
+    "difficulty": "hard",
+    "imageQuery": "dividend"
+  },
+  {
+    "word": "portfolio",
+    "difficulty": "hard",
+    "imageQuery": "portfolio"
+  },
+  {
+    "word": "valuation",
+    "difficulty": "hard",
+    "imageQuery": "valuation"
+  },
+  {
+    "word": "appraisal",
+    "difficulty": "hard",
+    "imageQuery": "appraisal"
+  },
+  {
+    "word": "arbitration",
+    "difficulty": "hard",
+    "imageQuery": "arbitration"
+  },
+  {
+    "word": "litigation",
+    "difficulty": "hard",
+    "imageQuery": "litigation"
+  },
+  {
+    "word": "jurisdiction",
+    "difficulty": "hard",
+    "imageQuery": "jurisdiction"
+  },
+  {
+    "word": "compliance",
+    "difficulty": "hard",
+    "imageQuery": "compliance"
+  },
+  {
+    "word": "regulatory",
+    "difficulty": "hard",
+    "imageQuery": "regulatory"
+  },
+  {
+    "word": "governance",
+    "difficulty": "hard",
+    "imageQuery": "governance"
+  },
+  {
+    "word": "ethics",
+    "difficulty": "hard",
+    "imageQuery": "ethics"
+  },
+  {
+    "word": "accountability",
+    "difficulty": "hard",
+    "imageQuery": "accountability"
+  },
+  {
+    "word": "confidentiality",
+    "difficulty": "hard",
+    "imageQuery": "confidentiality"
+  },
+  {
+    "word": "non-disclosure",
+    "difficulty": "hard",
+    "imageQuery": "non-disclosure"
+  },
+  {
+    "word": "intellectual property",
+    "difficulty": "hard",
+    "imageQuery": "intellectual property"
+  },
+  {
+    "word": "patent",
+    "difficulty": "hard",
+    "imageQuery": "patent"
+  },
+  {
+    "word": "trademark",
+    "difficulty": "hard",
+    "imageQuery": "trademark"
+  },
+  {
+    "word": "copyright",
+    "difficulty": "hard",
+    "imageQuery": "copyright"
+  },
+  {
+    "word": "royalty",
+    "difficulty": "hard",
+    "imageQuery": "royalty"
+  },
+  {
+    "word": "licensing",
+    "difficulty": "hard",
+    "imageQuery": "licensing"
+  },
+  {
+    "word": "franchise",
+    "difficulty": "hard",
+    "imageQuery": "franchise"
+  },
+  {
+    "word": "outsourcing",
+    "difficulty": "hard",
+    "imageQuery": "outsourcing"
+  },
+  {
+    "word": "benchmarking",
+    "difficulty": "hard",
+    "imageQuery": "benchmarking"
+  },
+  {
+    "word": "key performance indicator",
+    "difficulty": "hard",
+    "imageQuery": "key performance indicator"
+  },
+  {
+    "word": "strategic alignment",
+    "difficulty": "hard",
+    "imageQuery": "strategic alignment"
+  },
+  {
+    "word": "roadmap",
+    "difficulty": "hard",
+    "imageQuery": "roadmap"
+  },
+  {
+    "word": "milestone",
+    "difficulty": "hard",
+    "imageQuery": "milestone"
+  },
+  {
+    "word": "contingency",
+    "difficulty": "hard",
+    "imageQuery": "contingency"
+  },
+  {
+    "word": "mitigation",
+    "difficulty": "hard",
+    "imageQuery": "mitigation"
+  },
+  {
+    "word": "risk assessment",
+    "difficulty": "hard",
+    "imageQuery": "risk assessment"
+  },
+  {
+    "word": "due diligence",
+    "difficulty": "hard",
+    "imageQuery": "due diligence"
+  },
+  {
+    "word": "cost-benefit",
+    "difficulty": "hard",
+    "imageQuery": "cost-benefit"
+  },
+  {
+    "word": "organizational",
+    "difficulty": "hard",
+    "imageQuery": "organizational"
+  },
+  {
+    "word": "cross-functional",
+    "difficulty": "hard",
+    "imageQuery": "cross-functional"
+  },
+  {
+    "word": "interdepartmental",
+    "difficulty": "hard",
+    "imageQuery": "interdepartmental"
+  },
+  {
+    "word": "interpersonal",
+    "difficulty": "hard",
+    "imageQuery": "interpersonal"
+  },
+  {
+    "word": "collaboration",
+    "difficulty": "hard",
+    "imageQuery": "collaboration"
+  },
+  {
+    "word": "facilitation",
+    "difficulty": "hard",
+    "imageQuery": "facilitation"
+  },
+  {
+    "word": "negotiation",
+    "difficulty": "hard",
+    "imageQuery": "negotiation"
+  },
+  {
+    "word": "mediation",
+    "difficulty": "hard",
+    "imageQuery": "mediation"
+  },
+  {
+    "word": "consensus",
+    "difficulty": "hard",
+    "imageQuery": "consensus"
+  },
+  {
+    "word": "escalation",
+    "difficulty": "hard",
+    "imageQuery": "escalation"
+  },
+  {
+    "word": "procurement",
+    "difficulty": "hard",
+    "imageQuery": "procurement"
+  },
+  {
+    "word": "sourcing",
+    "difficulty": "hard",
+    "imageQuery": "sourcing"
+  },
+  {
+    "word": "supply chain",
+    "difficulty": "hard",
+    "imageQuery": "supply chain"
+  },
+  {
+    "word": "distribution",
+    "difficulty": "hard",
+    "imageQuery": "distribution"
+  },
+  {
+    "word": "fulfillment",
+    "difficulty": "hard",
+    "imageQuery": "fulfillment"
+  },
+  {
+    "word": "inventory turnover",
+    "difficulty": "hard",
+    "imageQuery": "inventory turnover"
+  },
+  {
+    "word": "backorder",
+    "difficulty": "hard",
+    "imageQuery": "backorder"
+  },
+  {
+    "word": "lead time",
+    "difficulty": "hard",
+    "imageQuery": "lead time"
+  },
+  {
+    "word": "capacity planning",
+    "difficulty": "hard",
+    "imageQuery": "capacity planning"
+  },
+  {
+    "word": "resource allocation",
+    "difficulty": "hard",
+    "imageQuery": "resource allocation"
+  },
+  {
+    "word": "customer retention",
+    "difficulty": "hard",
+    "imageQuery": "customer retention"
+  },
+  {
+    "word": "customer acquisition",
+    "difficulty": "hard",
+    "imageQuery": "customer acquisition"
+  },
+  {
+    "word": "market penetration",
+    "difficulty": "hard",
+    "imageQuery": "market penetration"
+  },
+  {
+    "word": "competitive analysis",
+    "difficulty": "hard",
+    "imageQuery": "competitive analysis"
+  },
+  {
+    "word": "differentiation",
+    "difficulty": "hard",
+    "imageQuery": "differentiation"
+  },
+  {
+    "word": "value proposition",
+    "difficulty": "hard",
+    "imageQuery": "value proposition"
+  },
+  {
+    "word": "branding strategy",
+    "difficulty": "hard",
+    "imageQuery": "branding strategy"
+  },
+  {
+    "word": "positioning",
+    "difficulty": "hard",
+    "imageQuery": "positioning"
+  },
+  {
+    "word": "pricing strategy",
+    "difficulty": "hard",
+    "imageQuery": "pricing strategy"
+  },
+  {
+    "word": "channel strategy",
+    "difficulty": "hard",
+    "imageQuery": "channel strategy"
+  },
+  {
+    "word": "service level",
+    "difficulty": "hard",
+    "imageQuery": "service level"
+  },
+  {
+    "word": "service agreement",
+    "difficulty": "hard",
+    "imageQuery": "service agreement"
+  },
+  {
+    "word": "performance clause",
+    "difficulty": "hard",
+    "imageQuery": "performance clause"
+  },
+  {
+    "word": "penalty clause",
+    "difficulty": "hard",
+    "imageQuery": "penalty clause"
+  },
+  {
+    "word": "force majeure",
+    "difficulty": "hard",
+    "imageQuery": "force majeure"
+  },
+  {
+    "word": "termination",
+    "difficulty": "hard",
+    "imageQuery": "termination"
+  },
+  {
+    "word": "renewal clause",
+    "difficulty": "hard",
+    "imageQuery": "renewal clause"
+  },
+  {
+    "word": "amendment",
+    "difficulty": "hard",
+    "imageQuery": "amendment"
+  },
+  {
+    "word": "appendix",
+    "difficulty": "hard",
+    "imageQuery": "appendix"
+  },
+  {
+    "word": "addendum",
+    "difficulty": "hard",
+    "imageQuery": "addendum"
+  },
+  {
+    "word": "stakeholder engagement",
+    "difficulty": "hard",
+    "imageQuery": "stakeholder engagement"
+  },
+  {
+    "word": "public relations",
+    "difficulty": "hard",
+    "imageQuery": "public relations"
+  },
+  {
+    "word": "crisis management",
+    "difficulty": "hard",
+    "imageQuery": "crisis management"
+  },
+  {
+    "word": "reputation management",
+    "difficulty": "hard",
+    "imageQuery": "reputation management"
+  },
+  {
+    "word": "corporate social responsibility",
+    "difficulty": "hard",
+    "imageQuery": "corporate social responsibility"
+  },
+  {
+    "word": "environmental policy",
+    "difficulty": "hard",
+    "imageQuery": "environmental policy"
+  },
+  {
+    "word": "carbon footprint",
+    "difficulty": "hard",
+    "imageQuery": "carbon footprint"
+  },
+  {
+    "word": "energy efficiency",
+    "difficulty": "hard",
+    "imageQuery": "energy efficiency"
+  },
+  {
+    "word": "waste reduction",
+    "difficulty": "hard",
+    "imageQuery": "waste reduction"
+  },
+  {
+    "word": "recycling program",
+    "difficulty": "hard",
+    "imageQuery": "recycling program"
+  },
+  {
+    "word": "data analytics",
+    "difficulty": "hard",
+    "imageQuery": "data analytics"
+  },
+  {
+    "word": "data governance",
+    "difficulty": "hard",
+    "imageQuery": "data governance"
+  },
+  {
+    "word": "data privacy",
+    "difficulty": "hard",
+    "imageQuery": "data privacy"
+  },
+  {
+    "word": "cybersecurity",
+    "difficulty": "hard",
+    "imageQuery": "cybersecurity"
+  },
+  {
+    "word": "encryption",
+    "difficulty": "hard",
+    "imageQuery": "encryption"
+  },
+  {
+    "word": "authentication",
+    "difficulty": "hard",
+    "imageQuery": "authentication"
+  },
+  {
+    "word": "authorization",
+    "difficulty": "hard",
+    "imageQuery": "authorization"
+  },
+  {
+    "word": "access control",
+    "difficulty": "hard",
+    "imageQuery": "access control"
+  },
+  {
+    "word": "vulnerability",
+    "difficulty": "hard",
+    "imageQuery": "vulnerability"
+  },
+  {
+    "word": "penetration test",
+    "difficulty": "hard",
+    "imageQuery": "penetration test"
+  },
+  {
+    "word": "cloud migration",
+    "difficulty": "hard",
+    "imageQuery": "cloud migration"
+  },
+  {
+    "word": "infrastructure",
+    "difficulty": "hard",
+    "imageQuery": "infrastructure"
+  },
+  {
+    "word": "virtualization",
+    "difficulty": "hard",
+    "imageQuery": "virtualization"
+  },
+  {
+    "word": "continuous integration",
+    "difficulty": "hard",
+    "imageQuery": "continuous integration"
+  },
+  {
+    "word": "deployment",
+    "difficulty": "hard",
+    "imageQuery": "deployment"
+  },
+  {
+    "word": "quality assurance",
+    "difficulty": "hard",
+    "imageQuery": "quality assurance"
+  },
+  {
+    "word": "regression",
+    "difficulty": "hard",
+    "imageQuery": "regression"
+  },
+  {
+    "word": "scalability plan",
+    "difficulty": "hard",
+    "imageQuery": "scalability plan"
+  },
+  {
+    "word": "load testing",
+    "difficulty": "hard",
+    "imageQuery": "load testing"
+  },
+  {
+    "word": "disaster recovery",
+    "difficulty": "hard",
+    "imageQuery": "disaster recovery"
+  },
+  {
+    "word": "portfolio management",
+    "difficulty": "hard",
+    "imageQuery": "portfolio management"
+  },
+  {
+    "word": "project charter",
+    "difficulty": "hard",
+    "imageQuery": "project charter"
+  },
+  {
+    "word": "scope creep",
+    "difficulty": "hard",
+    "imageQuery": "scope creep"
+  },
+  {
+    "word": "requirements",
+    "difficulty": "hard",
+    "imageQuery": "requirements"
+  },
+  {
+    "word": "deliverable",
+    "difficulty": "hard",
+    "imageQuery": "deliverable"
+  },
+  {
+    "word": "stakeholder map",
+    "difficulty": "hard",
+    "imageQuery": "stakeholder map"
+  },
+  {
+    "word": "Gantt chart",
+    "difficulty": "hard",
+    "imageQuery": "Gantt chart"
+  },
+  {
+    "word": "critical path",
+    "difficulty": "hard",
+    "imageQuery": "critical path"
+  },
+  {
+    "word": "change request",
+    "difficulty": "hard",
+    "imageQuery": "change request"
+  },
+  {
+    "word": "post-implementation",
+    "difficulty": "hard",
+    "imageQuery": "post-implementation"
+  },
+  {
+    "word": "compensation package",
+    "difficulty": "hard",
+    "imageQuery": "compensation package"
+  },
+  {
+    "word": "collective bargaining",
+    "difficulty": "hard",
+    "imageQuery": "collective bargaining"
+  },
+  {
+    "word": "grievance procedure",
+    "difficulty": "hard",
+    "imageQuery": "grievance procedure"
+  },
+  {
+    "word": "workplace harassment",
+    "difficulty": "hard",
+    "imageQuery": "workplace harassment"
+  },
+  {
+    "word": "code of conduct",
+    "difficulty": "hard",
+    "imageQuery": "code of conduct"
+  },
+  {
+    "word": "whistleblower",
+    "difficulty": "hard",
+    "imageQuery": "whistleblower"
+  },
+  {
+    "word": "labor regulation",
+    "difficulty": "hard",
+    "imageQuery": "labor regulation"
+  },
+  {
+    "word": "compliance training",
+    "difficulty": "hard",
+    "imageQuery": "compliance training"
+  },
+  {
+    "word": "succession planning",
+    "difficulty": "hard",
+    "imageQuery": "succession planning"
+  },
+  {
+    "word": "talent pipeline",
+    "difficulty": "hard",
+    "imageQuery": "talent pipeline"
+  }
+]
