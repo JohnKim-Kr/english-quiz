@@ -58,6 +58,7 @@ const accuracyEl = document.getElementById("accuracy");
 const resultTitle = document.getElementById("resultTitle");
 const leaderboardList = document.getElementById("leaderboardList");
 const backToStartBtn = document.getElementById("backToStartBtn");
+const loadingScreen = document.getElementById("loadingScreen");
 
 const difficultyButtons = Array.from(document.querySelectorAll(".seg-btn"));
 
@@ -332,6 +333,7 @@ async function saveLeaderboardEntry(entry) {
 }
 
 async function renderLeaderboard() {
+  loadingScreen.classList.remove("hidden");
   leaderboardList.innerHTML = "";
   const loading = document.createElement("li");
   loading.textContent = "랭킹을 불러오는 중...";
@@ -355,17 +357,21 @@ async function renderLeaderboard() {
       leaderboardList.appendChild(empty);
       return;
     }
-    snapshot.forEach((docSnap, index) => {
+    let rank = 1;
+    snapshot.forEach((docSnap) => {
       const item = docSnap.data();
       const li = document.createElement("li");
-      li.innerHTML = `<span>${index + 1}. ${item.school} ${item.nickname}</span><strong>${item.correct}개</strong>`;
+      li.innerHTML = `<span>${rank}. ${item.school} ${item.nickname}</span><strong>${item.correct}개</strong>`;
       leaderboardList.appendChild(li);
+      rank += 1;
     });
   } catch (error) {
     leaderboardList.innerHTML = "";
     const empty = document.createElement("li");
     empty.textContent = "랭킹을 불러오지 못했습니다.";
     leaderboardList.appendChild(empty);
+  } finally {
+    loadingScreen.classList.add("hidden");
   }
 }
 
